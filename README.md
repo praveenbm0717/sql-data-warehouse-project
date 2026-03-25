@@ -39,36 +39,7 @@ CSV Files → Bronze → Silver → Gold → Analytics
 
 ---
 
-## 📂 Project Structure
-
-
-data-warehouse-project/
-│
-├── data/                      # All data-related files
-│   ├── raw/                  # Original source data (ERP, CRM)
-│   ├── staging/              # Intermediate files (optional)
-│   └── processed/            # Cleaned outputs if needed
-│
-├── scripts/                  # Core ETL logic
-│   ├── bronze/               # Ingestion (raw loading)
-│   ├── silver/               # Cleaning & transformations
-│   └── gold/                 # Business logic (facts & dimensions)
-│
-├── models/                   # Data models (star schema, etc.)
-│   ├── fact_tables/
-│   └── dimension_tables/
-│
-├── tests/                    # Data quality checks
-│
-├── docs/                     # Documentation
-│   ├── architecture.md
-│   ├── data_model.md
-│   └── pipeline_flow.md
-│
-├── configs/                  # Config files (paths, env, etc.)
-│
-├── requirements.txt          # Dependencies
-└── README.md                 # Project overview
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/be1a04d9-54b4-4fcb-bb31-7f35cb3b0f65" />
 
 
 ---
