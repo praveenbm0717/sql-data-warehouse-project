@@ -17,7 +17,7 @@ To build a modern data warehouse that:
 ## 🏗️ Architecture
 
 The project follows **Medallion Architecture**:
-<img width="821" height="551" alt="DWH Architecture-Page-1 drawio" src="https://github.com/user-attachments/assets/a84a953e-13f9-447e-b9c6-e65328feabf6" />
+![DWH Architecture-Page-1](https://github.com/user-attachments/assets/82ad2c69-8e31-448f-80db-d2b59c08c5e9)
 
 
 - **Bronze Layer** → Raw data (CSV → SQL Server)
