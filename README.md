@@ -38,6 +38,7 @@ CSV Files → Bronze → Silver → Gold → Analytics
 - Draw.io
 
 ---
+## 📂 Repository Structure
 
 data-warehouse-project/
 │
