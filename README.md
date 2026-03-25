@@ -44,16 +44,31 @@ CSV Files → Bronze → Silver → Gold → Analytics
 
 data-warehouse-project/
 │
-├── datasets/ # Raw CSV data (ERP & CRM)
-├── docs/ # Architecture, models, documentation
-├── scripts/
-│ ├── bronze/ # Data ingestion scripts
-│ ├── silver/ # Data cleaning & transformation
-│ └── gold/ # Analytical models (fact & dimension tables)
+├── data/                      # All data-related files
+│   ├── raw/                  # Original source data (ERP, CRM)
+│   ├── staging/              # Intermediate files (optional)
+│   └── processed/            # Cleaned outputs if needed
 │
-├── tests/ # Data quality checks
-├── README.md
-└── requirements.txt
+├── scripts/                  # Core ETL logic
+│   ├── bronze/               # Ingestion (raw loading)
+│   ├── silver/               # Cleaning & transformations
+│   └── gold/                 # Business logic (facts & dimensions)
+│
+├── models/                   # Data models (star schema, etc.)
+│   ├── fact_tables/
+│   └── dimension_tables/
+│
+├── tests/                    # Data quality checks
+│
+├── docs/                     # Documentation
+│   ├── architecture.md
+│   ├── data_model.md
+│   └── pipeline_flow.md
+│
+├── configs/                  # Config files (paths, env, etc.)
+│
+├── requirements.txt          # Dependencies
+└── README.md                 # Project overview
 
 
 ---
